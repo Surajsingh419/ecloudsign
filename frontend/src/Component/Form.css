@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", "Arial", "sans-sarif";
+  color: #555;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.container,
+.DONE {
+  border: 1px solid #555;
+  width: 40%;
+  /* height: 90vh; */
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.container {
+  background-color: rgb(172, 172, 172);
+}
+
+.DONE {
+  background-color: rgb(172, 172, 172);
+}
+
+/* .done{
+
+} */
+
+form {
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 30%;
+}
+
+h1 {
+  text-align: center;
+  justify-content: center;
+  /* border: 2px solid; */
+}
+
+.input {
+  /* border: 2px solid; */
+  width: 80%;
+  /* position: absolute;
+  top: 85%;
+  left: 25%; */
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.in {
+  width: 50%;
+  padding: 6px;
+  border: 1px solid #555;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.inBtn {
+  margin-left: 100%;
+  text-align: center;
+  justify-content: center;
+  width: 20%;
+  margin: auto;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#suBtn {
+  text-align: center;
+  justify-content: center;
+  width: 8%;
+  margin: auto;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 3px;
+  border: 1px solid;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+}
+
+.elem {
+  position: absolute;
+  font-size: 80%;
+  left: 2%;
+  top: 15%;
+}
+
+.elem,
+.elemD {
+  color: rgb(196, 196, 196);
+  text-shadow: 0 1px 1px #000
+}
+
+.elemD {
+  justify-content: center;
+  text-align: center;
+  font-size: 50%;
+  color: white;
+}
+
+.compBtn {
+  background-color: rgb(204, 204, 204);
+  top: 10%;
+  position: absolute;
+  right: 2%;
+  border: 0;
+  border-radius: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.editB {
+  position: absolute;
+  right: 18%;
+}
+
+.task {
+  background-color: rgb(134, 134, 134);
+  width: 80%;
+  /* border: 1px solid #555; */
+  border-radius: 3px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  position: relative;
+}
+
+.con2 {
+  display: flex;
+}
